@@ -1,0 +1,33 @@
+# Nixpacks build plan for QuickFix Solutions (Next.js 16 + pnpm).
+#
+# The default Node provider works, but we customize so:
+#   - Corepack activates the pnpm version pinned in package.json (10.33.0)
+#   - The build uses the standalone Next.js output
+#   - The runtime image starts the standalone server directly (smaller, faster)
+#   - PORT and HOSTNAME from the platform are honored
+#
+# All NEXT_PUBLIC_* env vars must be defined in the platform UI BEFORE the
+# build phase — they're inlined into the client bundle at build time.
+
+providers = ["node"]
+
+[variables]
+NODE_ENV = "production"
+NEXT_TELEMETRY_DISABLED = "1"
+
+[phases.setup]
+nixPkgs = ["nodejs_22", "pnpm-10_x"]
+
+[phases.install]
+cmds = ["corepack enable && corepack prepare --activate && pnpm install --frozen-lockfile"]
+cacheDirectories = ["~/.pnpm-store"]
+
+[phases.build]
+cmds = ["pnpm build"]
+cacheDirectories = [".next/cache"]
+
+[start]
+# `next` standalone server reads PORT and HOSTNAME from the env. We bind to
+# 0.0.0.0 so the platform's load balancer can reach it; PORT defaults to
+# whatever the platform exposes (Railway/Render/Coolify all inject it).
+cmd = "HOSTNAME=0.0.0.0 PORT=${PORT:-3000} node .next/standalone/server.js"
