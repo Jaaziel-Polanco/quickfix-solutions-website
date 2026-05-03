@@ -5,12 +5,20 @@ import { BreadcrumbsJsonLd } from "@/app/components/seo/BreadcrumbsJsonLd";
 
 const seo = PAGE_SEO.es.reviews;
 
-export const metadata: Metadata = pageMetadata({
-  title: seo.title,
-  description: seo.description,
-  enPath: seo.path,
-  lang: "es",
-});
+export const metadata: Metadata = {
+  ...pageMetadata({
+    title: seo.title,
+    description: seo.description,
+    enPath: seo.path,
+    lang: "es",
+  }),
+  // Noindex hasta que existan reseñas reales — evita señal de thin-content.
+  robots: {
+    index: false,
+    follow: true,
+    googleBot: { index: false, follow: true },
+  },
+};
 
 export default function Page() {
   return (

@@ -96,6 +96,14 @@ export function Footer() {
             <ul className="space-y-2.5 text-[14px]">
               <li>
                 <Link
+                  href={localePath("/about")}
+                  className="text-white/65 hover:text-white transition"
+                >
+                  {t("nav_about")}
+                </Link>
+              </li>
+              <li>
+                <Link
                   href={localePath("/landlords-property-managers")}
                   className="text-white/65 hover:text-white transition"
                 >

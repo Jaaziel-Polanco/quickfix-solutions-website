@@ -1,5 +1,6 @@
 import { Hero } from "@/app/components/Hero";
 import { TrustBadgesSection } from "@/app/components/sections/TrustBadges";
+import { ServiceModelSection } from "@/app/components/sections/ServiceModel";
 import { WhyUsSection } from "@/app/components/sections/WhyUs";
 import { ServicesSection } from "@/app/components/sections/Services";
 import { ExclusionsSection } from "@/app/components/sections/Exclusions";
@@ -16,6 +17,7 @@ export function Landing() {
     <>
       <Hero />
       <TrustBadgesSection />
+      <ServiceModelSection />
       <WhyUsSection />
       <ServicesSection />
       <ExclusionsSection />

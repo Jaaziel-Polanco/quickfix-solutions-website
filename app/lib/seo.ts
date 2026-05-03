@@ -99,6 +99,7 @@ type PageCopy = { title: string; description: string; h1: string; path: string }
 /** Per-page SEO copy for both languages. `path` is the canonical EN path. */
 export const PAGE_SEO: Record<Lang, Record<
   | "home"
+  | "about"
   | "servicesIndex"
   | "serviceAreas"
   | "landlords"
@@ -116,6 +117,13 @@ export const PAGE_SEO: Record<Lang, Record<
         "Local residential appliance repair for washers, dryers, refrigerators, freezers, and gas or electric stoves. Next-day service in most cases. Diagnostic starts at $50 within 5 miles.",
       h1: "Fast, reliable appliance repair near you",
       path: "/",
+    },
+    about: {
+      title: `About QuickFix Solutions | Local Appliance Repair in ${BUSINESS.serviceState}`,
+      description:
+        "QuickFix Solutions is a local service-area residential appliance repair business in Pennsylvania. We do not operate a public storefront — service is provided at the customer's location.",
+      h1: "About QuickFix Solutions",
+      path: "/about",
     },
     servicesIndex: {
       title: `Residential Appliance Repair Services | ${BUSINESS.name}`,
@@ -148,8 +156,8 @@ export const PAGE_SEO: Record<Lang, Record<
     reviews: {
       title: `Customer Reviews | ${BUSINESS.name}`,
       description:
-        "Customer feedback for QuickFix Solutions — residential appliance repair across Pennsylvania.",
-      h1: "What our customers say",
+        "Customer reviews for QuickFix Solutions are coming soon. We're building our local Pennsylvania reputation one repair at a time and don't post stock testimonials.",
+      h1: "Customer reviews coming soon.",
       path: "/reviews",
     },
     contact: {
@@ -179,6 +187,13 @@ export const PAGE_SEO: Record<Lang, Record<
         "Reparación residencial local de electrodomésticos: lavadoras, secadoras, refrigeradores, congeladores y estufas de gas o eléctricas. Servicio al día siguiente en la mayoría de casos. Diagnóstico desde $50 dentro de 5 millas.",
       h1: "Reparación rápida y confiable de electrodomésticos cerca de ti",
       path: "/",
+    },
+    about: {
+      title: `Acerca de QuickFix Solutions | Reparación Local en ${BUSINESS.serviceState}`,
+      description:
+        "QuickFix Solutions es un negocio local de área de servicio para reparación residencial de electrodomésticos en Pensilvania. No operamos una tienda física — el servicio se brinda en la ubicación del cliente.",
+      h1: "Acerca de QuickFix Solutions",
+      path: "/about",
     },
     servicesIndex: {
       title: `Servicios de Reparación de Electrodomésticos Residenciales | ${BUSINESS.name}`,
@@ -211,8 +226,8 @@ export const PAGE_SEO: Record<Lang, Record<
     reviews: {
       title: `Reseñas de Clientes | ${BUSINESS.name}`,
       description:
-        "Comentarios de clientes para QuickFix Solutions — reparación residencial de electrodomésticos en Pensilvania.",
-      h1: "Lo que dicen nuestros clientes",
+        "Las reseñas de clientes para QuickFix Solutions están por venir. Construimos nuestra reputación local en Pensilvania una reparación a la vez y no publicamos testimonios genéricos.",
+      h1: "Reseñas de clientes — pronto.",
       path: "/reviews",
     },
     contact: {
@@ -321,6 +336,7 @@ export const SERVICE_SEO: Record<Lang, Record<ServiceSlug, { title: string; desc
 /** All canonical site routes (EN paths). Sitemap renders both EN and ES versions. */
 export const ALL_ROUTES: { path: string; priority: number; changeFrequency: "daily" | "weekly" | "monthly" | "yearly" }[] = [
   { path: "/", priority: 1.0, changeFrequency: "weekly" },
+  { path: "/about", priority: 0.7, changeFrequency: "monthly" },
   { path: "/services", priority: 0.9, changeFrequency: "monthly" },
   ...SERVICES.map((s) => ({
     path: `/services/${s.slug}`,
@@ -330,8 +346,8 @@ export const ALL_ROUTES: { path: string; priority: number; changeFrequency: "dai
   { path: "/service-areas", priority: 0.8, changeFrequency: "monthly" },
   { path: "/landlords-property-managers", priority: 0.8, changeFrequency: "monthly" },
   { path: "/faq", priority: 0.6, changeFrequency: "monthly" },
-  { path: "/reviews", priority: 0.5, changeFrequency: "monthly" },
   { path: "/contact", priority: 0.7, changeFrequency: "monthly" },
+  // /reviews omitted from sitemap — page is noindex until real reviews exist.
   { path: "/terms", priority: 0.3, changeFrequency: "yearly" },
   { path: "/privacy", priority: 0.3, changeFrequency: "yearly" },
 ];

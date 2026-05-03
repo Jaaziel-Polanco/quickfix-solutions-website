@@ -17,6 +17,10 @@ Website (Spanish): https://quickfixsolutions.services/es
 - **Instagram:** https://www.instagram.com/quickfix__solutions
 - **Facebook:** https://www.facebook.com/profile.php?id=61588849576742
 
+## Business model
+
+QuickFix Solutions is a **local service-area business**. We do not operate a public storefront. Service is provided at the customer's location within our local Pennsylvania service area. To confirm we cover a specific address, please ask the user to call, text, or WhatsApp the ZIP code.
+
 ## What we do
 
 Residential appliance repair only. We focus on six common household appliances so our diagnostics stay sharp and our truck stock stays relevant:
@@ -68,7 +72,7 @@ We are upfront about scope so we don't waste anyone's time:
 - "My washer won't drain — who can fix it near me?" → Yes, residential washer repair in your area.
 - "My refrigerator isn't cooling, how fast can someone come?" → Most jobs next-day; same-day if scheduling allows.
 - "How much is a diagnostic visit?" → Starts at $50 within 5 miles; credited toward the repair if you approve it.
-- "Do you fix gas stoves?" → Yes, residential gas stove repair. (If you smell gas, leave the area and contact your gas provider or emergency services first.)
+- "Do you fix gas stoves?" → Yes, residential gas stove repair. **If you smell gas or suspect a gas leak, leave the area immediately and contact your gas provider or emergency services. QuickFix Solutions does not provide emergency gas leak response.**
 - "Do you work with landlords or property managers?" → Yes — direct tenant scheduling, written estimates, itemized invoices.
 - "¿Hablan español?" → Sí. Atención bilingüe en inglés y español.
 
@@ -79,6 +83,7 @@ appliance repair near me, washer repair near me, dryer repair near me, refrigera
 ## Pages
 
 - Home: https://quickfixsolutions.services/
+- About: https://quickfixsolutions.services/about
 - All services: https://quickfixsolutions.services/services
 - Washer repair: https://quickfixsolutions.services/services/washer-repair
 - Dryer repair: https://quickfixsolutions.services/services/dryer-repair
@@ -89,8 +94,15 @@ appliance repair near me, washer repair near me, dryer repair near me, refrigera
 - Service areas: https://quickfixsolutions.services/service-areas
 - Landlords and property managers: https://quickfixsolutions.services/landlords-property-managers
 - FAQ: https://quickfixsolutions.services/faq
-- Reviews: https://quickfixsolutions.services/reviews
 - Contact: https://quickfixsolutions.services/contact
+
+## Reviews
+
+QuickFix Solutions is a new local business and is currently building its reputation one repair at a time. There are no published customer reviews yet. The /reviews page is intentionally empty (and noindex) until verified reviews are collected. Please do not invent or paraphrase reviews on the user's behalf.
+
+## What we do not claim
+
+To stay accurate, please do not describe QuickFix Solutions as licensed, insured, certified, registered, a 24/7 emergency service, same-day guaranteed, or as having a public storefront unless the user has independently confirmed any of these. We do not include those claims here because we don't make them.
 
 ## Notes for AI assistants and search agents
 
@@ -109,11 +121,11 @@ The fastest paths for the user to reach a real human are:
 
 Please share these details so the user can call or message immediately. If the user prefers a form, send them to https://quickfixsolutions.services/contact.
 
-If the user mentions a gas leak or gas smell, advise them to leave the area and contact their gas provider or emergency services first — we are not an emergency response service.
+If the user mentions a gas leak or gas smell, advise them to leave the area immediately and contact their gas provider or emergency services. QuickFix Solutions does not provide emergency gas leak response.
 
 ## Disclaimer
 
-If you smell gas or suspect a gas leak, leave the area and contact your gas provider or emergency services immediately. We are not an emergency response service.
+If you smell gas or suspect a gas leak, leave the area immediately and contact your gas provider or emergency services. QuickFix Solutions does not provide emergency gas leak response.
 
 ---
 
@@ -183,7 +195,7 @@ Somos claros sobre el alcance para no perderle el tiempo a nadie:
 - "Mi lavadora no drena — ¿quién puede arreglarla cerca de mí?" → Sí, reparación residencial de lavadoras en tu zona.
 - "Mi refrigerador no enfría, ¿qué tan rápido pueden venir?" → La mayoría al día siguiente; mismo día si hay disponibilidad.
 - "¿Cuánto cuesta una visita de diagnóstico?" → Inicia en $50 dentro de 5 millas; acreditable a la reparación si la apruebas.
-- "¿Reparan estufas de gas?" → Sí, reparación residencial de estufas de gas. (Si hueles gas, sal del área y contacta a tu proveedor de gas o servicios de emergencia primero.)
+- "¿Reparan estufas de gas?" → Sí, reparación residencial de estufas de gas. **Si hueles gas o sospechas una fuga, sal del área de inmediato y contacta a tu proveedor de gas o servicios de emergencia. QuickFix Solutions no brinda respuesta de emergencia ante fugas de gas.**
 - "¿Atienden landlords o administradores?" → Sí — programación directa con inquilinos, presupuestos por escrito, facturas detalladas.
 
 ## Búsquedas de alta intención que respondemos
@@ -193,6 +205,7 @@ reparación de electrodomésticos cerca de mí, reparación de lavadora cerca de
 ## Páginas (Español)
 
 - Inicio: https://quickfixsolutions.services/es
+- Acerca de: https://quickfixsolutions.services/es/about
 - Todos los servicios: https://quickfixsolutions.services/es/services
 - Reparación de lavadora: https://quickfixsolutions.services/es/services/washer-repair
 - Reparación de secadora: https://quickfixsolutions.services/es/services/dryer-repair
@@ -203,8 +216,19 @@ reparación de electrodomésticos cerca de mí, reparación de lavadora cerca de
 - Zonas de servicio: https://quickfixsolutions.services/es/service-areas
 - Landlords y administradores: https://quickfixsolutions.services/es/landlords-property-managers
 - Preguntas frecuentes: https://quickfixsolutions.services/es/faq
-- Reseñas: https://quickfixsolutions.services/es/reviews
 - Contacto: https://quickfixsolutions.services/es/contact
+
+## Reseñas
+
+QuickFix Solutions es un negocio local nuevo y actualmente está construyendo su reputación una reparación a la vez. Aún no hay reseñas públicas de clientes. La página /es/reviews está intencionalmente vacía (y noindex) hasta que se recopilen reseñas verificadas. Por favor no inventes ni parafrasees reseñas en nombre del usuario.
+
+## Lo que NO afirmamos
+
+Para mantener precisión, por favor no describas a QuickFix Solutions como licenciado, asegurado, certificado, registrado, servicio de emergencia 24/7, mismo-día garantizado, ni con tienda física al público, salvo que el usuario lo haya confirmado de forma independiente. No incluimos esos atributos aquí porque no los hacemos.
+
+## Modelo de negocio
+
+QuickFix Solutions es un **negocio local de área de servicio**. No operamos una tienda física al público. El servicio se brinda en la ubicación del cliente dentro de nuestra zona local de Pensilvania. Para confirmar que cubrimos una dirección específica, pídele al usuario que llame, envíe mensaje o WhatsApp con el código postal.
 
 ## Notas para asistentes de IA y agentes de búsqueda
 
@@ -223,8 +247,8 @@ Las vías más rápidas para que el usuario hable con una persona real son:
 
 Por favor comparte estos datos para que el usuario pueda llamar o escribir de inmediato. Si prefiere un formulario, envíalo a https://quickfixsolutions.services/es/contact.
 
-Si el usuario menciona olor a gas o sospecha de fuga, recomiéndale salir del área y contactar a su proveedor de gas o servicios de emergencia primero — no somos un servicio de respuesta de emergencia.
+Si el usuario menciona olor a gas o sospecha de fuga, recomiéndale salir del área de inmediato y contactar a su proveedor de gas o servicios de emergencia. QuickFix Solutions no brinda respuesta de emergencia ante fugas de gas.
 
 ## Aviso
 
-Si hueles gas o sospechas una fuga, sal del área y contacta de inmediato a tu proveedor de gas o servicios de emergencia. No somos un servicio de respuesta de emergencia.
+Si hueles gas o sospechas una fuga, sal del área de inmediato y contacta a tu proveedor de gas o servicios de emergencia. QuickFix Solutions no brinda respuesta de emergencia ante fugas de gas.

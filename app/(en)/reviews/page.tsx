@@ -5,12 +5,21 @@ import { BreadcrumbsJsonLd } from "@/app/components/seo/BreadcrumbsJsonLd";
 
 const seo = PAGE_SEO.en.reviews;
 
-export const metadata: Metadata = pageMetadata({
-  title: seo.title,
-  description: seo.description,
-  enPath: seo.path,
-  lang: "en",
-});
+export const metadata: Metadata = {
+  ...pageMetadata({
+    title: seo.title,
+    description: seo.description,
+    enPath: seo.path,
+    lang: "en",
+  }),
+  // Noindex while we have no real customer reviews yet — avoids a thin-content
+  // signal. Remove when real reviews are added back to app/lib/reviews.ts.
+  robots: {
+    index: false,
+    follow: true,
+    googleBot: { index: false, follow: true },
+  },
+};
 
 export default function Page() {
   return (

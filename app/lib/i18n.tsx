@@ -242,9 +242,9 @@ const I18N: Record<Lang, Dict> = {
       "We provide residential electric stove repair for coils that don't heat, surface element issues, oven temperature problems, control boards, and broiler issues. Most appointments are booked next-day, with same-day visits when scheduling allows.",
 
     // Gas safety notice (mandatory on gas stove page)
-    gas_safety_t: "If you smell gas",
+    gas_safety_t: "Important gas safety note",
     gas_safety_b:
-      "If you smell gas or suspect a gas leak, leave the area and contact your gas provider or emergency services immediately. We are not an emergency response service.",
+      "If you smell gas or suspect a gas leak, leave the area immediately and contact your gas provider or emergency services. QuickFix Solutions does not provide emergency gas leak response.",
 
     // Service Areas page
     pg_areas_h1: "Appliance Repair Service Area in Pennsylvania",
@@ -274,12 +274,41 @@ const I18N: Record<Lang, Dict> = {
     pg_rev_h1: "What our customers say",
     pg_rev_intro_2:
       "Real feedback from homeowners, tenants, landlords, and property managers across Pennsylvania. If we worked on your appliance recently, we'd love a few words too — call or message us on WhatsApp.",
-    rev_disclaimer:
-      "Reviews shared with permission. Names abbreviated. We are working on collecting verified reviews via Google Business Profile.",
-    home_rev_h2: "What our customers say",
-    home_rev_sub:
-      "Real local feedback from homeowners, tenants, landlords, and property managers across Pennsylvania. We back every repair with a 30-day labor warranty.",
-    home_rev_more: "Read all reviews",
+    rev_coming_t: "Customer reviews coming soon.",
+    rev_coming_b:
+      "QuickFix Solutions is building its local reputation one repair at a time. Verified reviews will appear here as they are collected — we don't post stock testimonials.",
+    rev_coming_chip: "Verified reviews will appear here once collected.",
+    rev_coming_long:
+      "If you've worked with us recently, we'd love a few words. Honest feedback from every customer helps us serve our local Pennsylvania community better.",
+
+    // About page
+    nav_about: "About",
+    pg_about_eyebrow: "About",
+    pg_about_h1: "About QuickFix Solutions",
+    pg_about_p1:
+      "QuickFix Solutions is a local residential appliance repair service serving Pennsylvania communities near Philadelphia, Upper Darby, Delaware County, and surrounding areas.",
+    pg_about_p2:
+      "We help homeowners, tenants, landlords, and property managers request appliance repair service for washers, dryers, refrigerators, freezers, and gas or electric stoves.",
+    pg_about_p3:
+      "QuickFix Solutions is a service-area business. We do not operate a public storefront. Service is provided at the customer's location within our local Pennsylvania service area.",
+    pg_about_p4:
+      "We are currently building our local reputation one repair at a time and welcome honest feedback from every customer we serve.",
+
+    // Service-model trust section (home)
+    sm_eyebrow: "How we work",
+    sm_h2: "A local service-area appliance repair business",
+    sm_intro:
+      "QuickFix Solutions provides residential appliance repair at the customer's location. We focus on clear communication, simple scheduling, and diagnostic visits for washers, dryers, refrigerators, freezers, and gas or electric stoves.",
+    sm_b1: "Local Pennsylvania service area",
+    sm_b2: "Residential appliance repair only",
+    sm_b3: "Homeowners, tenants, landlords, and property managers welcome",
+    sm_b4: "Diagnostic starts at $50 within 5 miles",
+    sm_b5: "Diagnostic goes toward the repair if approved",
+    sm_b6: "30-day labor warranty",
+    sm_b7: "Online requests open 24/7",
+    sm_storefront_t: "No public storefront",
+    sm_storefront_b:
+      "QuickFix Solutions is a service-area business. We do not operate a public storefront. Call or text your ZIP code to confirm availability in your area.",
 
     // Contact page
     pg_contact_intro:
@@ -546,9 +575,9 @@ const I18N: Record<Lang, Dict> = {
     svc_intro_electric:
       "Reparación residencial de estufas eléctricas para resistencias que no calientan, problemas de superficies, temperatura del horno, tarjetas de control y asadores. Mayoría de citas al día siguiente, con mismo día cuando hay disponibilidad.",
 
-    gas_safety_t: "Si hueles gas",
+    gas_safety_t: "Aviso importante de seguridad con gas",
     gas_safety_b:
-      "Si hueles gas o sospechas una fuga, sal del área y comunícate de inmediato con tu proveedor de gas o servicios de emergencia. No somos un servicio de respuesta de emergencia.",
+      "Si hueles gas o sospechas una fuga, sal del área de inmediato y contacta a tu proveedor de gas o servicios de emergencia. QuickFix Solutions no brinda respuesta de emergencia ante fugas de gas.",
 
     pg_areas_h1: "Zona de Servicio de Reparación de Electrodomésticos en Pensilvania",
     pg_areas_intro:
@@ -574,12 +603,39 @@ const I18N: Record<Lang, Dict> = {
     pg_rev_h1: "Lo que dicen nuestros clientes",
     pg_rev_intro_2:
       "Comentarios reales de propietarios, inquilinos, landlords y administradores de propiedades en Pensilvania. Si trabajamos en tu electrodoméstico recientemente, también nos encantarían unas palabras — llámanos o escríbenos por WhatsApp.",
-    rev_disclaimer:
-      "Reseñas compartidas con permiso. Nombres abreviados. Estamos recopilando reseñas verificadas en Google Business Profile.",
-    home_rev_h2: "Lo que dicen nuestros clientes",
-    home_rev_sub:
-      "Comentarios reales de propietarios, inquilinos, landlords y administradores en Pensilvania. Respaldamos cada reparación con garantía de 30 días en mano de obra.",
-    home_rev_more: "Ver todas las reseñas",
+    rev_coming_t: "Reseñas de clientes — pronto.",
+    rev_coming_b:
+      "QuickFix Solutions está construyendo su reputación local una reparación a la vez. Las reseñas verificadas aparecerán aquí cuando se recopilen — no publicamos testimonios genéricos.",
+    rev_coming_chip: "Las reseñas verificadas aparecerán aquí una vez recopiladas.",
+    rev_coming_long:
+      "Si trabajaste con nosotros recientemente, nos encantarían unas palabras. La retroalimentación honesta de cada cliente nos ayuda a servir mejor a la comunidad local de Pensilvania.",
+
+    nav_about: "Acerca de",
+    pg_about_eyebrow: "Acerca de",
+    pg_about_h1: "Acerca de QuickFix Solutions",
+    pg_about_p1:
+      "QuickFix Solutions es un servicio local de reparación residencial de electrodomésticos que atiende comunidades de Pensilvania cerca de Philadelphia, Upper Darby, Delaware County y áreas vecinas.",
+    pg_about_p2:
+      "Ayudamos a propietarios, inquilinos, landlords y administradores de propiedades a solicitar servicio de reparación para lavadoras, secadoras, refrigeradores, congeladores y estufas de gas o eléctricas.",
+    pg_about_p3:
+      "QuickFix Solutions es un negocio de área de servicio. No operamos una tienda física al público. El servicio se brinda en la ubicación del cliente, dentro de nuestra zona local de Pensilvania.",
+    pg_about_p4:
+      "Actualmente estamos construyendo nuestra reputación local una reparación a la vez y damos la bienvenida a comentarios honestos de cada cliente que atendemos.",
+
+    sm_eyebrow: "Cómo trabajamos",
+    sm_h2: "Un negocio local de área de servicio para reparación de electrodomésticos",
+    sm_intro:
+      "QuickFix Solutions brinda reparación residencial de electrodomésticos en la ubicación del cliente. Nos enfocamos en comunicación clara, programación simple y visitas de diagnóstico para lavadoras, secadoras, refrigeradores, congeladores y estufas de gas o eléctricas.",
+    sm_b1: "Zona local de servicio en Pensilvania",
+    sm_b2: "Solo reparación residencial de electrodomésticos",
+    sm_b3: "Propietarios, inquilinos, landlords y administradores bienvenidos",
+    sm_b4: "Diagnóstico desde $50 dentro de 5 millas",
+    sm_b5: "El diagnóstico se acredita a la reparación si se aprueba",
+    sm_b6: "Garantía de 30 días en mano de obra",
+    sm_b7: "Solicitudes en línea 24/7",
+    sm_storefront_t: "Sin tienda física al público",
+    sm_storefront_b:
+      "QuickFix Solutions es un negocio de área de servicio. No operamos una tienda física al público. Llama o envía un mensaje con tu código postal para confirmar disponibilidad en tu zona.",
 
     pg_contact_intro:
       "La respuesta más rápida es por llamada. Si prefieres escribir, el formulario en esta página llega directo a nuestro programador.",
